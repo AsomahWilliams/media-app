@@ -30,7 +30,6 @@ class OnlineCourse:
             print(f"{name} is not enrolled in this course")
 
 
-
         def  avg_grade(self, grades):  
             total = sum(student.grades)
             average = total / len(student.grades)
